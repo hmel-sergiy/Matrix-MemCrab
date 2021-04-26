@@ -1,0 +1,36 @@
+.cell{
+    margin: 0;
+    padding: 10px;
+    border: 1px solid black;
+    text-align: center;
+    cursor: pointer;
+}
+
+.sum-cell{
+    background-color: greenyellow;
+}
+
+.avg-cell{
+    background-color: greenyellow;
+}
+
+.add{
+    background-color: orangered;
+}
+
+.delete{
+    background-color: red;
+}
+
+.common-cell{
+    background-color: yellow;
+}
+
+@keyframes fading{
+    from {
+        background: yellow;
+    }
+    to {
+        background: white;
+    }
+}
